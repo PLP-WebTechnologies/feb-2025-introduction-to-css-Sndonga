@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment</title>
+    <!-- Linking external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="main-header">
+        <h1 class="title">Welcome to My Styled Page</h1>
+    </header>
+    
+    <main>
+        <section class="content-section">
+            <h2>About This Project</h2>
+            <p>This page demonstrates basic CSS styling techniques including:</p>
+            <ul>
+                <li>Element selectors</li>
+                <li>Class selectors</li>
+                <li>ID selectors</li>
+            </ul>
+        </section>
+        
+        <section class="content-section">
+            <h2>Featured Image</h2>
+            <div class="image-container">
+                <img src="https://via.placeholder.com/400x300" alt="Sample placeholder image">
+                <p class="image-caption">This image demonstrates styling with borders and spacing</p>
+            </div>
+        </section>
+        
+        <section id="special-section">
+            <h2>Special Section</h2>
+            <p>This section uses different styling to demonstrate ID selectors</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>CSS Assignment &copy; 2023</p>
+    </footer>
+</body>
+</html>
